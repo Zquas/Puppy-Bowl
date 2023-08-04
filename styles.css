@@ -5,15 +5,46 @@
 }
 
 #all-players-container {
-  display: flex;
+  border: 5px;
+  border-color:black;
 }
 
 .player {
-  width: 400px;
+  display: grid;
+  width: 300px;
+  float: left;
+  margin: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-color:rgb(2, 79, 124);
+  background-color:rgba(52, 166, 211, 0.404);
+  border-radius: 0px 25px 0px 0px;
+}
 
+.player > p {
+  text-align: center;
 }
 
 .player > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100%;
+}
+
+.player > button {
+  bottom: 0;
+}
+
+.playerDetails {
+  width: 300px;
+}
+
+.playerDetails img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 100%;
   height: 100%;
 }
